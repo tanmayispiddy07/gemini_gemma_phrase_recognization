@@ -1,8 +1,8 @@
-# Phrase Recognition with Gemini Flash 🔥
+# Phrase Recognition with Gemini Flash 
 
 An advanced project in phrase generation that explores innovative, non-transformer approaches for phrase recognition. This repository details the development and fine-tuning of the **Phase-Generator-7** model, based on the Gemini-Flash-0.01 architecture. Through this model, we achieved a remarkable performance, pushing the boundaries of traditional phrase generation and recognition.
 
-## 🚀 Project Overview
+## Project Overview
 
 Phrase generation and recognition are essential components in natural language processing, and this project explores a unique approach beyond standard transformer models. By using the Gemini-Flash-0.01 model, we fine-tuned it into the **Phase-Generator-7**, achieving exceptional performance in classification accuracy.
 

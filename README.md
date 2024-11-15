@@ -38,6 +38,35 @@ The model was successfully deployed as an interactive chatbot using Google AI St
 ## 🎉 Highlights
 
 This project exemplifies a leap forward in phrase recognition by utilizing Gemini Flash over traditional transformer methods. The Phase-Generator-7 demonstrates the effectiveness of non-transformer architectures in NLP tasks, achieving higher accuracy and efficiency.
+# Phrase Generation using Gemini 2bit Model
+
+This project demonstrates the use of the **Gemini 2bit model** for phrase generation tasks. The model is trained on tweet data and evaluated on multiple test files, including a zero-shot test file. The tokenizer used is **`AutoTokenizer`** from Hugging Face.
+
+## Gemma Overview
+
+The goal of this project is to generate relevant phrases based on tweet data using the **Gemini 2bit model**. The model has been evaluated on two tasks:
+1. **Stance Detection**: Identifying the stance of the tweet towards a given target.
+2. **Target Generation**: Generating the target (or topic) based on the tweet content.
+
+The evaluation results for both tasks have been evaluated on several datasets, showcasing the model's performance, including zero-shot tasks.
+
+## Evaluation Metrics
+
+The performance of the model is evaluated using the following metrics for both tasks:
+
+### Stance Detection
+- **Case 1**: 78% accuracy
+- **Case 2**: 78% accuracy
+- **Zero-shot**: 60% accuracy
+
+### Target Generation
+- **Case 1**: 78% accuracy
+- **Case 2**: 79% accuracy
+- **Zero-shot**: 64% accuracy
+
+## Conclusion
+
+This project demonstrates the ability of the **Gemini 2bit model** to generate relevant phrases based on tweet data. It shows strong performance across both stance detection and target generation tasks. The zero-shot evaluation results highlight the model's ability to generalize well to unseen data.
 
 ## 🤝 Contribution
 
@@ -45,4 +74,4 @@ We welcome contributions! Feel free to fork this repository, submit issues, or m
 
 ---
 
-This project showcases the potential of the Gemini Flash model in redefining phrase generation. By breaking away from transformer-based models, we open up new possibilities in generative AI, especially for real-time applications.
+This project showcases the potential of the Gemini Flash,Gemma model in redefining phrase generation. By breaking away from transformer-based models, we open up new possibilities in generative AI, especially for real-time applications.
